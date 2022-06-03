@@ -40,7 +40,7 @@ public class Result extends HttpServlet {
 		if (documentrequest.equals("yes")){
 			request.getRequestDispatcher("../jsp/document.jsp").forward(request, response);
 
-		}else {
+		}else{
 			request.getRequestDispatcher("../jsp/result.jsp").forward(request, response);
 
 		}

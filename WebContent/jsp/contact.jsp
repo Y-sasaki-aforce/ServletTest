@@ -21,7 +21,7 @@
 	<p><input type="checkbox" name="mailmagazine" value="求人採用情報">求人採用情報</p><br>
 
 	資料請求希望 :
-	<p><input type="radio" name="documentrequest" value="yes">YES</p>
+	<p><input type="radio" name="documentrequest" value="yes" required>YES</p>
 	<p><input type="radio" name="documentrequest" value="no">NO</p><br>
 
 	<button type="submit">送信</button>

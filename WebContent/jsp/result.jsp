@@ -11,8 +11,8 @@
 <section>
 <p>氏名：${contact.name}</p>
 <p>会社名：${contact.company}</p>
-<p>メールアドレス：${information.mail}</p>
-<p>お問い合わせ内容：${information.contact}</p>
+<p>メールアドレス：${contact.mail}</p>
+<p>お問い合わせ内容：${contact.kansou}</p>
 
 <p>
 	メルマガ種類：
@@ -21,7 +21,7 @@
 	</c:forEach>
 </p>
 
-<p>資料請求：${information.yesNo}</p>
+<p>資料請求：${contact.documentrequest}</p>
 </section>
 
 <%@include file="../footer.html" %>
